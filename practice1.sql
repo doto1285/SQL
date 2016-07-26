@@ -1,4 +1,4 @@
-SELECT first_name||' '||last_name AS "�̸�", email AS "�̸���", phone_number AS "��ȭ��ȣ" FROM EMPLOYEES ORDER BY HIRE_DATE ASC;
+SELECT first_name||' '||last_name AS "ÀÌ¸§", email AS "ÀÌ¸ÞÀÏ", phone_number AS "ÀüÈ­¹øÈ£" FROM EMPLOYEES ORDER BY HIRE_DATE ASC;
 
 SELECT job_title, max_salary FROM JOBS ORDER BY MAX_SALARY DESC;
 
